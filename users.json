@@ -20,14 +20,28 @@
                     "questions": [
                         [
                             {
-                                " question":"What is an algorithm?",
-                                "answer":"A step-by-step procedure for calculations"
+                                " question": "What is an algorithm?",
+                                "answer": "A step-by-step procedure for calculations"
                             }
                         ]
                     ]
                 }
-                
             ]
         }
-    ]
+    ],
+    "chaima": {
+        "password": "123",
+        "history": [
+            {
+                "date": "2024-12-26",
+                "score": 4,
+                "total": 15
+            },
+            {
+                "date": "2024-12-26",
+                "score": 4,
+                "total": 15
+            }
+        ]
+    }
 }

@@ -1,4 +1,6 @@
 import json
+from datetime import datetime
+
 def load_questions(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
@@ -7,48 +9,51 @@ def load_questions(file_path):
 def is_user_exist(name,password):
     users= load_questions('users.json')
     found=False
-    i=1
-    for i in range(len(users["users"])):
+    for i in range(1,len(users["users"])):
        if users["users"][i]["name"] == name and users["users"][i]["password"] == password:
           found = True
     return found 
+
 def create_new_profile(name,password):
    new_user = {
     "name": name,
     "password":password,
     "scores":[]
-
-
-
 }
    users= load_questions('users.json') 
    users['users'].append(new_user)
   
-
    with open('users.json', 'w') as file:
       json.dump(users,file, indent=4)
 
+def display_history(username):
+    users = load_questions('users.json')
+    if username in users:
+        print(f"\n{username}'s History:")
+        for history in users[username]["history"]:
+            print(f"- Date: {history['date']}, Score: {history['score']}/{history['total']}")
+    print()
 
 
+def save_users(users):
+    with open("users.json", 'w') as f:
+        json.dump(users, f, indent=4)
 
-def save_score_and_questions(date, score, name, password,questions):
-     users = load_questions('users.json')
+# fonction pour sauvgarder l'historique
+def save_score( score, username, password,questions):
+    users = load_questions('users.json')
     
-     for user in users["users"]:
-        if user["name"] == name and user["password"] == password:
-           
-         new_scores={
-                    "score":score,
-                    "date":date,
-                    "questions": [
-                     questions
-                    ]
-                }   
-         break
-     user['scores'].append(new_scores)
+    if username not in users:
+        users[username] = {"password":password,"history": []}
+        
+    test_result = {
+        "date": datetime.now().strftime("%Y-%m-%d"),
+        "score": score,
+        "total": len(questions),
+    }
+    users[username]["history"].append(test_result)
+    save_users(users)
 
-     with open('users.json', 'w') as file:
-                json.dump(users, file, indent=4)
 
 
 
