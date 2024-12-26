@@ -1,0 +1,48 @@
+{
+    "users": [
+        {
+            "name": "djazia",
+            "password": "123",
+            "scores": [
+                {
+                    "score": "30",
+                    "date": "2/2/2004",
+                    "questions": [
+                        {
+                            "question": " Which of these animals has the most powerful bite?",
+                            "answer": "Crocodile"
+                        }
+                    ]
+                },
+                {
+                    "score": "20",
+                    "date": "2/2/2004",
+                    "questions": [
+                        [
+                            {
+                                " question": "question1",
+                                "answer": "2"
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "score": "20",
+                    "date": "2/2/2004",
+                    "questions": [
+                        [
+                            {
+                                " question": "question1",
+                                "answer": "2"
+                            },
+                            {
+                                " question": "question2",
+                                "answer": "3"
+                            }
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}
