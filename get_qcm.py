@@ -32,6 +32,21 @@ while True:
             print("Invalid number. Please choose a valid category number.")  
     except ValueError:
         print("Invalid input. Please enter a number.")  
+# Fonction pour manipuler les questions
+def getscore(questions):
+    correct =0
+    for question in questions:
+        print(f"  Question: {question['question']}")
+        for option in question['options']:  
+            print(f"    - {option}")
+        choice = input("Choose ansewer :").lower()
+        if choice == question['answer']:
+            print("Correst answer!")
+            correct +=1
+        else:
+            print(f"worng answer the correst one is {question['answer']}")
+    print(f"your total correct answer {correct}/{len(questions)}")
+
 
 # Récupérer les questions de la catégorie choisie
 questions = get_category_questions('qcm.json', category_name)
@@ -39,11 +54,8 @@ questions = get_category_questions('qcm.json', category_name)
 # Afficher les questions si elles ont été trouvées
 if questions:
     print(f"Questions for the category '{category_name.capitalize()}':")
-    for question in questions:
-        print(f"  Question: {question['question']}") 
-        print("  Options:")
-        for option in question['options']:  
-            print(f"    - {option}")
-        print(f"  Answer: {question['answer']}")  # Affiche la réponse correcte
+    getscore(questions)
 else:
     print(f"The category '{category_name}' doesn't exist.")  # Si la catégorie n'existe pas, affiche un message d'erreur
+
+

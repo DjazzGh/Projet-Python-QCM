@@ -3,22 +3,22 @@
     {
       "question": "What is the largest planet in our solar system?",
       "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Saturn"
+        "a)Earth",
+        "b)Mars",
+        "c)Jupiter",
+        "d)Saturn"
       ],
-      "answer": "Jupiter"
+      "answer": "c"
     },
     {
       "question": "What is the largest ocean on Earth?",
       "options": [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean",
-        "Pacific Ocean"
+        "a)Atlantic Ocean",
+        "b)Indian Ocean",
+        "c)Arctic Ocean",
+        "d)Pacific Ocean"
       ],
-      "answer": "Pacific Ocean"
+      "answer": "d"
     },
     {
       "question": "What is the chemical symbol for water?",
