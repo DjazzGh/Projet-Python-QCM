@@ -23,445 +23,455 @@
     {
       "question": "What is the chemical symbol for water?",
       "options": [
-        "H2O",
-        "CO2",
-        "O2",
-        "N2"
+        "a)H2O",
+        "b)CO2",
+        "c)O2",
+        "d)N2"
       ],
-      "answer": "H2O"
+      "answer": "a"
     },
     {
       "question": "What is the process by which plants make their own food?",
       "options": [
-        "Photosynthesis",
-        "Respiration",
-        "Transpiration",
-        "Germination"
+        "a)Photosynthesis",
+        "b)Respiration",
+        "c)Transpiration",
+        "d)Germination"
       ],
-      "answer": "Photosynthesis"
-    },
-    {
-      "question": "What is the largest planet in our solar system?",
-      "options": [
-        "Earth",
-        "Mars",
-        "Jupiter",
-        "Saturn"
-      ],
-      "answer": "Jupiter"
+      "answer": "a"
     },
     {
       "question": "What is the largest continent on Earth?",
       "options": [
-        "Africa",
-        "Asia",
-        "Europe",
-        "Australia"
+        "a)Africa",
+        "b)Asia",
+        "c)Europe",
+        "d)Australia"
       ],
-      "answer": "Asia"
+      "answer": "b"
     },
     {
       "question": "What is the largest fish in the world?",
       "options": [
-        "Great White Shark",
-        "Whale Shark",
-        "Swordfish",
-        "Tuna"
+        "a)Great White Shark",
+        "b)Whale Shark",
+        "c)Swordfish",
+        "d)Tuna"
       ],
-      "answer": "Whale Shark"
+      "answer": "b"
     },
     {
       "question": "Which of these animals can change its color to blend in with its surroundings?",
       "options": [
-        "Chameleon",
-        "Snake",
-        "Rabbit",
-        "Lion"
+        "a)Rabbit",
+        "b)Snake",
+        "c)Chameleon",
+        "d)Lion"
       ],
-      "answer": "Chameleon"
+      "answer": "c"
     },
     {
       "question": "Which plant is known for being the source of chocolate?",
       "options": [
-        "Cocoa tree",
-        "Maple tree",
-        "Apple tree",
-        "Cherry tree"
+        "a)Cocoa tree",
+        "b)Maple tree",
+        "c)Apple tree",
+        "d)Cherry tree"
       ],
-      "answer": "Cocoa tree"
+      "answer": "a"
     }, {
       "question": "Which type of plant is commonly used in traditional medicine for its healing properties?",
       "options": [
-        "Aloe vera",
-        "Lavender",
-        "Rosemary",
-        "Mint"
+        "a)Lavender",
+        "b)Aloe vera",
+        "c)Rosemary",
+        "d)Mint"
       ],
-      "answer": "Aloe vera"
+      "answer": "b"
     },
     {
       "question": "What is the name of the world’s largest island?",
       "options": [
-        "Greenland",
-        "New Guinea",
-        "Borneo",
-        "Madagascar"
+        "a)Borneo",
+        "b)New Guinea",
+        "c)Greenland",
+        "d)Madagascar"
       ],
-      "answer": "Greenland"
+      "answer": "c"
     },
     {
       "question": "Which fruit grows on trees?",
       "options": [
-        "Apple",
-        "Carrot",
-        "Potato",
-        "Tomato"
+        "a)Tomato",
+        "b)Carrot",
+        "c)Potato",
+        "d)Apple"
       ],
-      "answer": "Apple"
+      "answer": "d"
     },
     {
       "question": "Which river is the longest in the world?",
       "options": [
-        "Amazon River",
-        "Nile River",
-        "Yangtze River",
-        "Mississippi River"
+        "a)Nile River",
+        "b)Amazon River",
+        "c)Yangtze River",
+        "d)Mississippi River"
       ],
-      "answer": "Amazon River"
+      "answer": "b"
     },
     {
       "question": "Which of these animals has the most powerful bite?",
       "options": [
-        "Crocodile",
-        "Lion",
-        "Tiger",
-        "Great White Shark"
+        "a)Tiger",
+        "b)Lion",
+        "c)Crocodile",
+        "d)Great White Shark"
       ],
-      "answer": "Crocodile"
+      "answer": "c"
     },
+    {
+    "question": "Which gas is the most abundant in Earth's atmosphere?",
+    "options": [
+      "a) Oxygen",
+      "b) Carbon dioxide",
+      "c) Nitrogen",
+      "d) Argon"
+    ],
+    "answer": "c"
+  },
     {
       "question": "Which mountain is the tallest in the world above sea level?",
       "options": [
-        "Mount Everest",
-        "K2",
-        "Mount Kilimanjaro",
-        "Mount Denali"
+        "a)Mount Everest",
+        "b)K2",
+        "c)Mount Kilimanjaro",
+        "d)Mount Denali"
       ],
-      "answer": "Mount Everest"
+      "answer": "a"
     }
   ],
   "informatique": [
     {
       "question": "What is an algorithm?",
       "options": [
-        "A step-by-step procedure for calculations",
-        "A type of database",
-        "A programming language",
-        "A hardware component"
+        
+        "a)A type of database",
+        "b)A step-by-step procedure for calculations",
+        "c)A programming language",
+        "d)A hardware component"
       ],
-      "answer": "A step-by-step procedure for calculations"
+      "answer": "b"
     },
     {
       "question": "What is a database?",
       "options": [
-        "An organized collection of data",
-        "A type of software bug",
-        "A programming language",
-        "A hardware component"
+        "a)An organized collection of data",
+        "b)A type of software bug",
+        "c)A programming language",
+        "d)A hardware component"
       ],
-      "answer": "An organized collection of data"
+      "answer": "a"
     },
     {
       "question": "What does CPU stand for?",
       "options": [
-        "Central Processing Unit",
-        "Centralized Processing Unit",
-        "Computer Processing Unit",
-        "Central Processor Unit"
+       
+        "a)Centralized Processing Unit",
+        "b)Computer Processing Unit",
+         "c)Central Processing Unit",
+        "d)Central Processor Unit"
       ],
-      "answer": "Central Processing Unit"
+      "answer": "c"
     },
     {
       "question": "What is a compiler?",
       "options": [
-        "A program that translates code written in a high-level programming language into machine language",
-        "A tool for debugging",
-        "A type of interpreter",
-        "A software for managing databases"
+       
+        "a)A tool for debugging",
+        "b)A type of interpreter",
+        "c)A software for managing databases",
+         "d)A program that translates code written in a high-level programming language into machine language"
       ],
-      "answer": "A program that translates code written in a high-level programming language into machine language"
+      "answer": "d"
     },
     {
       "question": "What is the main function of the operating system?",
       "options": [
-        "To manage computer hardware and software resources",
-        "To provide a platform for running applications",
-        "To control all the networking",
-        "To create and maintain files"
+        "a)To manage computer hardware and software resources",
+        "b)To provide a platform for running applications",
+        "c)To control all the networking",
+        "d)To create and maintain files"
       ],
-      "answer": "To manage computer hardware and software resources"
+      "answer": "a"
     },
     {
       "question": "What is the most popular programming language in 2024?",
-      "options": [
-        "Python",
-        "Java",
-        "C++",
-        "JavaScript"
+      "options": [       
+        "a)Java",
+        "b)C++",
+         "c)Python",
+        "d)JavaScript"
       ],
-      "answer": "Python"
+      "answer": "c"
     },
     {
       "question": "What does HTML stand for?",
       "options": [
-        "HyperText Markup Language",
-        "Hyper Transfer Markup Language",
-        "Hyper Tool Markup Language",
-        "Home Text Markup Language"
+        "a)HyperText Markup Language",
+        "b)Hyper Transfer Markup Language",
+        "c)Hyper Tool Markup Language",
+        "d)Home Text Markup Language"
       ],
-      "answer": "HyperText Markup Language"
+      "answer": "a"
     },
     {
       "question": "What is a web browser?",
       "options": [
-        "A software application for retrieving, presenting, and traversing information resources on the World Wide Web",
-        "A type of database",
-        "A programming language",
-        "A hardware component"
+        
+        "a)A type of database",
+        "b)A programming language",
+        "c)A software application for retrieving, presenting, and traversing information resources on the World Wide Web",
+        "d)A hardware component"
       ],
-      "answer": "A software application for retrieving, presenting, and traversing information resources on the World Wide Web"
+      "answer": "c"
     },
      
     {
       "question": "What does RAM stand for?",
       "options": [
-        "Random Access Memory",
-        "Read Access Memory",
-        "Randomized Access Memory",
-        "Readable Access Memory"
+        
+        "a)Read Access Memory",
+        "b)Random Access Memory",
+        "c)Randomized Access Memory",
+        "d)Readable Access Memory"
       ],
-      "answer": "Random Access Memory"
+      "answer": "b"
     },
    
     {
       "question": "What does SQL stand for?",
       "options": [
-        "Structured Query Language",
-        "Simple Query Language",
-        "Structured Question Language",
-        "System Query Language"
+        
+        "a)Simple Query Language",
+        "b)Structured Question Language",
+        "c)Structured Query Language",
+        "d)System Query Language"
       ],
-      "answer": "Structured Query Language"
+      "answer": "c"
     },
     {
       "question": "What does API stand for?",
       "options": [
-        "Application Programming Interface",
-        "Application Process Interface",
-        "Advanced Programming Interface",
-        "Application Protocol Interface"
+        
+        "a)Application Process Interface",
+        "b)Advanced Programming Interface",
+        "c)Application Protocol Interface",
+        "d)Application Programming Interface"
       ],
-      "answer": "Application Programming Interface"
+      "answer": "d"
     },
    
     {
       "question": "What is open-source software?",
       "options": [
-        "Software with source code that anyone can inspect, modify, and enhance",
-        "Software that is free to use",
-        "Software that is only available for purchase",
-        "Software that is developed by a single company"
+        "a)Software with source code that anyone can inspect, modify, and enhance",
+        "b)Software that is free to use",
+        "c)Software that is only available for purchase",
+        "d)Software that is developed by a single company"
       ],
-      "answer": "Software with source code that anyone can inspect, modify, and enhance"
+      "answer": "a"
     },
     {
       "question": "What does DevOps stand for?",
       "options": [
-        "Development and Operations",
-        "Development and Optimization",
-        "Development and Organization",
-        "Development and Processes"
+        "a)Development and Optimization",
+         "b)Development and Operations",
+        "c)Development and Organization",
+        "d)Development and Processes"
       ],
-      "answer": "Development and Operations"
+      "answer": "b"
     },
     {
       "question": "What is an object in OOP?",
       "options": [
-        "An instance of a class",
-        "A type of database",
-        "A programming language",
-        "A hardware component"
+        "a)A type of database",
+        "b)A programming language",
+        "c)An instance of a class",
+        "d)A hardware component"
       ],
-      "answer": "An instance of a class"
+      "answer": "c"
     },
     {
       "question": "What is a hash table?",
       "options": [
-        "A data structure that implements an associative array abstract data type",
-        "A type of database",
-        "A programming language",
-        "A hardware component"
+        
+        "a)A type of database",
+        "b)A programming language",
+        "c)A hardware component",
+        "d)A data structure that implements an associative array abstract data type"
       ],
-      "answer": "A data structure that implements an associative array abstract data type"
+      "answer": "d"
     }
   ],
   "medicine": [
     {
       "question": "What is the normal body temperature for a healthy adult?",
       "options": [
-        "36.5-37.5°C",
-        "38.0-39.0°C",
-        "37.0-38.0°C",
-        "35.0-36.0°C"
+        "a)36.5-37.5°C",
+        "b)38.0-39.0°C",
+        "c)37.0-38.0°C",
+        "d)35.0-36.0°C"
       ],
-      "answer": "36.5-37.5°C"
+      "answer": "a"
     },
     {
       "question": "What is the medical term for high blood pressure?",
       "options": [
-        "Hypertension",
-        "Hypotension",
-        "Arrhythmia",
-        "Angina"
+        "a)Hypertension",
+        "b)Hypotension",
+        "c)Arrhythmia",
+        "d)Angina"
       ],
-      "answer": "Hypertension"
+      "answer": "b"
     },
     {
       "question": "What is the function of the pancreas?",
-      "options": [
-        "To produce insulin and digestive enzymes",
-        "To filter blood",
-        "To produce red blood cells",
-        "To regulate heart rate"
+      "options": [  
+        "a)To filter blood",
+        "b)To produce red blood cells",
+        "c)To produce insulin and digestive enzymes",
+        "d)To regulate heart rate"
       ],
-      "answer": "To produce insulin and digestive enzymes"
+      "answer": "c"
     },
   
     {
       "question": "What is diabetes?",
       "options": [
-        "A condition where the body is unable to regulate blood sugar levels",
-        "A condition where the body produces too much insulin",
-        "A disease caused by high cholesterol",
-        "A viral infection"
+        "a)A condition where the body is unable to regulate blood sugar levels",
+        "b)A condition where the body produces too much insulin",
+        "c)A disease caused by high cholesterol",
+        "d)A viral infection"
       ],
-      "answer": "A condition where the body is unable to regulate blood sugar levels"
+      "answer": "a"
     },
     {
       "question": "What is the medical term for a broken bone?",
       "options": [
-        "Fracture",
-        "Sprain",
-        "Strain",
-        "Contusion"
+        "a)Sprain",
+        "b)Strain",
+        "c)Fracture",
+        "d)Contusion"
       ],
-      "answer": "Fracture"
+      "answer": "c"
     },
     {
       "question": "What is the medical term for a condition where the body temperature is too high?",
       "options": [
-        "Fever",
-        "Hyperthermia",
-        "Hypothermia",
-        "Heatstroke"
+        "a)Fever",
+        "b)Hyperthermia",
+        "c)Hypothermia",
+        "d)Heatstroke"
       ],
-      "answer": "Fever"
+      "answer": "a"
     },
     
     {
       "question": "What is the primary function of red blood cells?",
       "options": [
-        "To carry oxygen",
-        "To fight infections",
-        "To clot blood",
-        "To transport nutrients"
+        
+        "a)To fight infections",
+        "b)To clot blood",
+        "c)To transport nutrients",
+        "d)To carry oxygen"
       ],
-      "answer": "To carry oxygen"
+      "answer": "d"
     },
    
     {
       "question": "Which vitamin is known as the 'sunshine vitamin'?",
-      "options": [
-        "Vitamin D",
-        "Vitamin C",
-        "Vitamin A",
-        "Vitamin K"
+      "options": [  
+        "a)Vitamin C",
+        "b)Vitamin A",
+        "c)Vitamin K",
+        "d)Vitamin D"
       ],
-      "answer": "Vitamin D"
+      "answer": "d"
     },
    
     {
       "question": "What is the function of the kidneys?",
       "options": [
-        "To filter waste from the blood",
-        "To regulate body temperature",
-        "To help with digestion",
-        "To produce hormones"
+        "a)To regulate body temperature",
+        "b)To filter waste from the blood",
+        "c)To help with digestion",
+        "d)To produce hormones"
       ],
-      "answer": "To filter waste from the blood"
+      "answer": "b"
     },
     {
       "question": "What is the most common symptom of a heart attack?",
       "options": [
-        "Chest pain",
-        "Headache",
-        "Nausea",
-        "Dizziness"
+        "a)Headache",
+        "b)Nausea",
+        "c)Chest pain",
+        "d)Dizziness"
       ],
-      "answer": "Chest pain"
+      "answer": "c"
     },
    
    
     {
       "question": "What is an allergy?",
       "options": [
-        "An immune system response to a substance",
-        "A viral infection",
-        "A bacterial infection",
-        "A genetic disorder"
+        
+        "a)A viral infection",
+        "b)A bacterial infection",
+        "c)A genetic disorder",
+        "d)An immune system response to a substance"
       ],
-      "answer": "An immune system response to a substance"
+      "answer": "d"
     },
     {
       "question": "What is the purpose of the immune system?",
       "options": [
-        "To protect the body from infections",
-        "To digest food",
-        "To produce energy",
-        "To regulate temperature"
+        "a)To digest food",
+        "b)To produce energy",
+        "c)To regulate temperature",
+        "d)To protect the body from infections"
       ],
-      "answer": "To protect the body from infections"
+      "answer": "d"
     },
     {
       "question": "What is asthma?",
       "options": [
-        "A respiratory condition causing difficulty in breathing",
-        "A condition causing joint pain",
-        "A type of heart disease",
-        "A digestive disorder"
+        "a)A respiratory condition causing difficulty in breathing",
+        "b)A condition causing joint pain",
+        "c)A type of heart disease",
+        "d)A digestive disorder"
       ],
-      "answer": "A respiratory condition causing difficulty in breathing"
+      "answer": "a"
     },
     {
       "question": "What is the medical term for a condition where the body is invaded by harmful microorganisms?",
       "options": [
-        "Infection",
-        "Allergy",
-        "Autoimmune disease",
-        "Inflammation"
+        "a)Allergy",
+        "b)Infection",
+        "c)Autoimmune disease",
+        "d)Inflammation"
       ],
-      "answer": "Infection"
+      "answer": "b"
     },
    
     {
       "question": "What is the medical term for a condition where the body lacks red blood cells?",
       "options": [
-        "Anemia",
-        "Leukemia",
-        "Thrombocytopenia",
-        "Polycythemia"
+        "a)Anemia",
+        "b)Leukemia",
+        "c)Thrombocytopenia",
+        "d)Polycythemia"
       ],
-      "answer": "Anemia"
+      "answer": "a"
     }    
   ]
 
