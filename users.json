@@ -20,28 +20,13 @@
                     "questions": [
                         [
                             {
-                                " question": "question1",
-                                "answer": "2"
-                            }
-                        ]
-                    ]
-                },
-                {
-                    "score": "20",
-                    "date": "2/2/2004",
-                    "questions": [
-                        [
-                            {
-                                " question": "question1",
-                                "answer": "2"
-                            },
-                            {
-                                " question": "question2",
-                                "answer": "3"
+                                " question":"What is an algorithm?",
+                                "answer":"A step-by-step procedure for calculations"
                             }
                         ]
                     ]
                 }
+                
             ]
         }
     ]
