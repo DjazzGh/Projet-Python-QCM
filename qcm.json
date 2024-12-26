@@ -1,0 +1,470 @@
+{
+  "nature": [
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What is the largest ocean on Earth?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answer": "Pacific Ocean"
+    },
+    {
+      "question": "What is the chemical symbol for water?",
+      "options": [
+        "H2O",
+        "CO2",
+        "O2",
+        "N2"
+      ],
+      "answer": "H2O"
+    },
+    {
+      "question": "What is the process by which plants make their own food?",
+      "options": [
+        "Photosynthesis",
+        "Respiration",
+        "Transpiration",
+        "Germination"
+      ],
+      "answer": "Photosynthesis"
+    },
+    {
+      "question": "What is the largest planet in our solar system?",
+      "options": [
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn"
+      ],
+      "answer": "Jupiter"
+    },
+    {
+      "question": "What is the largest continent on Earth?",
+      "options": [
+        "Africa",
+        "Asia",
+        "Europe",
+        "Australia"
+      ],
+      "answer": "Asia"
+    },
+    {
+      "question": "What is the largest fish in the world?",
+      "options": [
+        "Great White Shark",
+        "Whale Shark",
+        "Swordfish",
+        "Tuna"
+      ],
+      "answer": "Whale Shark"
+    },
+    {
+      "question": "Which of these animals can change its color to blend in with its surroundings?",
+      "options": [
+        "Chameleon",
+        "Snake",
+        "Rabbit",
+        "Lion"
+      ],
+      "answer": "Chameleon"
+    },
+    {
+      "question": "Which plant is known for being the source of chocolate?",
+      "options": [
+        "Cocoa tree",
+        "Maple tree",
+        "Apple tree",
+        "Cherry tree"
+      ],
+      "answer": "Cocoa tree"
+    }, {
+      "question": "Which type of plant is commonly used in traditional medicine for its healing properties?",
+      "options": [
+        "Aloe vera",
+        "Lavender",
+        "Rosemary",
+        "Mint"
+      ],
+      "answer": "Aloe vera"
+    },
+    {
+      "question": "What is the name of the world’s largest island?",
+      "options": [
+        "Greenland",
+        "New Guinea",
+        "Borneo",
+        "Madagascar"
+      ],
+      "answer": "Greenland"
+    },
+    {
+      "question": "Which fruit grows on trees?",
+      "options": [
+        "Apple",
+        "Carrot",
+        "Potato",
+        "Tomato"
+      ],
+      "answer": "Apple"
+    },
+    {
+      "question": "Which river is the longest in the world?",
+      "options": [
+        "Amazon River",
+        "Nile River",
+        "Yangtze River",
+        "Mississippi River"
+      ],
+      "answer": "Amazon River"
+    },
+    {
+      "question": "Which of these animals has the most powerful bite?",
+      "options": [
+        "Crocodile",
+        "Lion",
+        "Tiger",
+        "Great White Shark"
+      ],
+      "answer": "Crocodile"
+    },
+    {
+      "question": "Which mountain is the tallest in the world above sea level?",
+      "options": [
+        "Mount Everest",
+        "K2",
+        "Mount Kilimanjaro",
+        "Mount Denali"
+      ],
+      "answer": "Mount Everest"
+    }
+  ],
+  "informatique": [
+    {
+      "question": "What is an algorithm?",
+      "options": [
+        "A step-by-step procedure for calculations",
+        "A type of database",
+        "A programming language",
+        "A hardware component"
+      ],
+      "answer": "A step-by-step procedure for calculations"
+    },
+    {
+      "question": "What is a database?",
+      "options": [
+        "An organized collection of data",
+        "A type of software bug",
+        "A programming language",
+        "A hardware component"
+      ],
+      "answer": "An organized collection of data"
+    },
+    {
+      "question": "What does CPU stand for?",
+      "options": [
+        "Central Processing Unit",
+        "Centralized Processing Unit",
+        "Computer Processing Unit",
+        "Central Processor Unit"
+      ],
+      "answer": "Central Processing Unit"
+    },
+    {
+      "question": "What is a compiler?",
+      "options": [
+        "A program that translates code written in a high-level programming language into machine language",
+        "A tool for debugging",
+        "A type of interpreter",
+        "A software for managing databases"
+      ],
+      "answer": "A program that translates code written in a high-level programming language into machine language"
+    },
+    {
+      "question": "What is the main function of the operating system?",
+      "options": [
+        "To manage computer hardware and software resources",
+        "To provide a platform for running applications",
+        "To control all the networking",
+        "To create and maintain files"
+      ],
+      "answer": "To manage computer hardware and software resources"
+    },
+    {
+      "question": "What is the most popular programming language in 2024?",
+      "options": [
+        "Python",
+        "Java",
+        "C++",
+        "JavaScript"
+      ],
+      "answer": "Python"
+    },
+    {
+      "question": "What does HTML stand for?",
+      "options": [
+        "HyperText Markup Language",
+        "Hyper Transfer Markup Language",
+        "Hyper Tool Markup Language",
+        "Home Text Markup Language"
+      ],
+      "answer": "HyperText Markup Language"
+    },
+    {
+      "question": "What is a web browser?",
+      "options": [
+        "A software application for retrieving, presenting, and traversing information resources on the World Wide Web",
+        "A type of database",
+        "A programming language",
+        "A hardware component"
+      ],
+      "answer": "A software application for retrieving, presenting, and traversing information resources on the World Wide Web"
+    },
+     
+    {
+      "question": "What does RAM stand for?",
+      "options": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Randomized Access Memory",
+        "Readable Access Memory"
+      ],
+      "answer": "Random Access Memory"
+    },
+   
+    {
+      "question": "What does SQL stand for?",
+      "options": [
+        "Structured Query Language",
+        "Simple Query Language",
+        "Structured Question Language",
+        "System Query Language"
+      ],
+      "answer": "Structured Query Language"
+    },
+    {
+      "question": "What does API stand for?",
+      "options": [
+        "Application Programming Interface",
+        "Application Process Interface",
+        "Advanced Programming Interface",
+        "Application Protocol Interface"
+      ],
+      "answer": "Application Programming Interface"
+    },
+   
+    {
+      "question": "What is open-source software?",
+      "options": [
+        "Software with source code that anyone can inspect, modify, and enhance",
+        "Software that is free to use",
+        "Software that is only available for purchase",
+        "Software that is developed by a single company"
+      ],
+      "answer": "Software with source code that anyone can inspect, modify, and enhance"
+    },
+    {
+      "question": "What does DevOps stand for?",
+      "options": [
+        "Development and Operations",
+        "Development and Optimization",
+        "Development and Organization",
+        "Development and Processes"
+      ],
+      "answer": "Development and Operations"
+    },
+    {
+      "question": "What is an object in OOP?",
+      "options": [
+        "An instance of a class",
+        "A type of database",
+        "A programming language",
+        "A hardware component"
+      ],
+      "answer": "An instance of a class"
+    },
+    {
+      "question": "What is a hash table?",
+      "options": [
+        "A data structure that implements an associative array abstract data type",
+        "A type of database",
+        "A programming language",
+        "A hardware component"
+      ],
+      "answer": "A data structure that implements an associative array abstract data type"
+    }
+  ],
+  "medicine": [
+    {
+      "question": "What is the normal body temperature for a healthy adult?",
+      "options": [
+        "36.5-37.5°C",
+        "38.0-39.0°C",
+        "37.0-38.0°C",
+        "35.0-36.0°C"
+      ],
+      "answer": "36.5-37.5°C"
+    },
+    {
+      "question": "What is the medical term for high blood pressure?",
+      "options": [
+        "Hypertension",
+        "Hypotension",
+        "Arrhythmia",
+        "Angina"
+      ],
+      "answer": "Hypertension"
+    },
+    {
+      "question": "What is the function of the pancreas?",
+      "options": [
+        "To produce insulin and digestive enzymes",
+        "To filter blood",
+        "To produce red blood cells",
+        "To regulate heart rate"
+      ],
+      "answer": "To produce insulin and digestive enzymes"
+    },
+  
+    {
+      "question": "What is diabetes?",
+      "options": [
+        "A condition where the body is unable to regulate blood sugar levels",
+        "A condition where the body produces too much insulin",
+        "A disease caused by high cholesterol",
+        "A viral infection"
+      ],
+      "answer": "A condition where the body is unable to regulate blood sugar levels"
+    },
+    {
+      "question": "What is the medical term for a broken bone?",
+      "options": [
+        "Fracture",
+        "Sprain",
+        "Strain",
+        "Contusion"
+      ],
+      "answer": "Fracture"
+    },
+    {
+      "question": "What is the medical term for a condition where the body temperature is too high?",
+      "options": [
+        "Fever",
+        "Hyperthermia",
+        "Hypothermia",
+        "Heatstroke"
+      ],
+      "answer": "Fever"
+    },
+    
+    {
+      "question": "What is the primary function of red blood cells?",
+      "options": [
+        "To carry oxygen",
+        "To fight infections",
+        "To clot blood",
+        "To transport nutrients"
+      ],
+      "answer": "To carry oxygen"
+    },
+   
+    {
+      "question": "Which vitamin is known as the 'sunshine vitamin'?",
+      "options": [
+        "Vitamin D",
+        "Vitamin C",
+        "Vitamin A",
+        "Vitamin K"
+      ],
+      "answer": "Vitamin D"
+    },
+   
+    {
+      "question": "What is the function of the kidneys?",
+      "options": [
+        "To filter waste from the blood",
+        "To regulate body temperature",
+        "To help with digestion",
+        "To produce hormones"
+      ],
+      "answer": "To filter waste from the blood"
+    },
+    {
+      "question": "What is the most common symptom of a heart attack?",
+      "options": [
+        "Chest pain",
+        "Headache",
+        "Nausea",
+        "Dizziness"
+      ],
+      "answer": "Chest pain"
+    },
+   
+   
+    {
+      "question": "What is an allergy?",
+      "options": [
+        "An immune system response to a substance",
+        "A viral infection",
+        "A bacterial infection",
+        "A genetic disorder"
+      ],
+      "answer": "An immune system response to a substance"
+    },
+    {
+      "question": "What is the purpose of the immune system?",
+      "options": [
+        "To protect the body from infections",
+        "To digest food",
+        "To produce energy",
+        "To regulate temperature"
+      ],
+      "answer": "To protect the body from infections"
+    },
+    {
+      "question": "What is asthma?",
+      "options": [
+        "A respiratory condition causing difficulty in breathing",
+        "A condition causing joint pain",
+        "A type of heart disease",
+        "A digestive disorder"
+      ],
+      "answer": "A respiratory condition causing difficulty in breathing"
+    },
+    {
+      "question": "What is the medical term for a condition where the body is invaded by harmful microorganisms?",
+      "options": [
+        "Infection",
+        "Allergy",
+        "Autoimmune disease",
+        "Inflammation"
+      ],
+      "answer": "Infection"
+    },
+   
+    {
+      "question": "What is the medical term for a condition where the body lacks red blood cells?",
+      "options": [
+        "Anemia",
+        "Leukemia",
+        "Thrombocytopenia",
+        "Polycythemia"
+      ],
+      "answer": "Anemia"
+    }    
+  ]
+
+  }
+  
+
