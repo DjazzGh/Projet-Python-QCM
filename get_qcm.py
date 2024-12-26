@@ -26,12 +26,12 @@ def getscore(questions,username,password):
         print(f"  Question: {question['question']}")
         for option in question['options']:  
             print(f"    - {option}")
-        choice = input("Choose ansewer :").lower()
+        choice = input("Choose answer :").lower()
         if choice == question['answer']:
             print("Correst answer!")
             correct +=1
         else:
-            print(f"worng answer the correst one is {question['answer']}")
+            print(f"wrong answer the correst one is {question['answer']}")
     save_score( correct, username, password,questions)
     print(f"your total correct answer {correct}/{len(questions)}")
 
