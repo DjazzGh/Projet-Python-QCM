@@ -1,87 +1,40 @@
 {
-    "users": [
-        {
-            "name": "djazia",
-            "password": "123",
-            "scores": [
-                {
-                    "score": "30",
-                    "date": "2/2/2004",
-                    "questions": [
-                        {
-                            "question": " Which of these animals has the most powerful bite?",
-                            "answer": "Crocodile"
-                        }
-                    ]
-                },
-                {
-                    "score": "20",
-                    "date": "2/2/2004",
-                    "questions": [
-                        [
-                            {
-                                " question": "What is an algorithm?",
-                                "answer": "A step-by-step procedure for calculations"
-                            }
-                        ]
-                    ]
-                }
-            ]
-        }
-    ],
+    "users": {},
     "chaima": {
         "password": "123",
         "history": [
             {
                 "category_name": "nature",
-                "date": "2024-12-26",
-                "score": 4,
-                "total": 15
-            },
-            {
-                "category_name": "nature",
-                "date": "2024-12-26",
-                "score": 4,
-                "total": 15
-            },
-            {
-                "category_name": "nature",
-                "date": "2024-12-26",
-                "score": 4,
-                "total": 15
-            },
-            {
-                "category_name": "nature",
                 "date": "2024-12-27",
-                "score": 0,
-                "total": 15
-            }
-        ]
-    },
-    "Jon": {
-        "password": "123",
-        "history": [
-            {
-                "category_name": "medicine",
-                "date": "2024-12-27",
-                "score": 5,
-                "total": 15
-            }
-        ]
-    },
-    "Racha": {
-        "password": "123",
-        "history": [
-            {
-                "category_name": "nature",
-                "date": "2024-12-27",
-                "score": 0,
+                "score": 1,
                 "total": 3
             },
             {
                 "category_name": "informatique",
                 "date": "2024-12-27",
+                "score": 1,
+                "total": 4
+            }
+        ]
+    },
+    "Jan": {
+        "password": "123",
+        "history": [
+            {
+                "category_name": "nature",
+                "date": "2024-12-27",
                 "score": 0,
+                "total": 1
+            }
+        ]
+    },
+    "djazia": {
+        "password": "123",
+        "history": [
+            {
+                "category_name": "medicine",
+                "date": "2024-12-27",
+                "score": 1,
                 "total": 3
             }
         ]

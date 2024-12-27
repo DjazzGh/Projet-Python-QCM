@@ -68,7 +68,10 @@ questions = get_category_questions('qcm.json', category_name)
 
 # Afficher les questions si elles ont été trouvées
 if questions:
-    numb_question = int(input("How many question would like to test ?"))
+    while True:
+        numb_question = int(input("How many question would like to test ?"))
+        if numb_question > 0:
+            break
     print(f"Questions for the category '{category_name.capitalize()}':")
     getscore(questions,username,password,category_name,numb_question)
 else:
