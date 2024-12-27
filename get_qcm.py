@@ -40,7 +40,12 @@ def getscore(questions,username,password,category_name,numb_question, difficulty
         print(f"  Question: {question['question']}")
         for option in question['options']:  
             print(f"    - {option}")
-        choice = input("Choose answer :").lower()
+        while True:
+            choice = input("Choose answer (a, b, c, or d): ").lower()
+            if choice in ['a', 'b', 'c', 'd']:
+                break  # Valid input, exit the loop
+            else:
+                print("Invalid choice. Please enter 'a', 'b', 'c', or 'd'.")
         if choice == question['answer']:
             print("Correst answer!")
             correct +=1
