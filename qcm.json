@@ -8,7 +8,8 @@
         "c)Jupiter",
         "d)Saturn"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "hard"
     },
     {
       "question": "What is the largest ocean on Earth?",
@@ -18,7 +19,8 @@
         "c)Arctic Ocean",
         "d)Pacific Ocean"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "medium"
     },
     {
       "question": "What is the chemical symbol for water?",
@@ -28,7 +30,8 @@
         "c)O2",
         "d)N2"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     },
     {
       "question": "What is the process by which plants make their own food?",
@@ -38,7 +41,8 @@
         "c)Transpiration",
         "d)Germination"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "medium"
     },
     {
       "question": "What is the largest continent on Earth?",
@@ -48,7 +52,8 @@
         "c)Europe",
         "d)Australia"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "medium"
     },
     {
       "question": "What is the largest fish in the world?",
@@ -58,7 +63,8 @@
         "c)Swordfish",
         "d)Tuna"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "medium"
     },
     {
       "question": "Which of these animals can change its color to blend in with its surroundings?",
@@ -68,7 +74,8 @@
         "c)Chameleon",
         "d)Lion"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "easy"
     },
     {
       "question": "Which plant is known for being the source of chocolate?",
@@ -78,7 +85,8 @@
         "c)Apple tree",
         "d)Cherry tree"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     }, {
       "question": "Which type of plant is commonly used in traditional medicine for its healing properties?",
       "options": [
@@ -87,7 +95,8 @@
         "c)Rosemary",
         "d)Mint"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "hard"
     },
     {
       "question": "What is the name of the world’s largest island?",
@@ -97,7 +106,8 @@
         "c)Greenland",
         "d)Madagascar"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "hard"
     },
     {
       "question": "Which fruit grows on trees?",
@@ -107,7 +117,8 @@
         "c)Potato",
         "d)Apple"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "easy"
     },
     {
       "question": "Which river is the longest in the world?",
@@ -117,7 +128,8 @@
         "c)Yangtze River",
         "d)Mississippi River"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "medium"
     },
     {
       "question": "Which of these animals has the most powerful bite?",
@@ -127,7 +139,8 @@
         "c)Crocodile",
         "d)Great White Shark"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "hard"
     },
     {
     "question": "Which gas is the most abundant in Earth's atmosphere?",
@@ -137,7 +150,8 @@
       "c) Nitrogen",
       "d) Argon"
     ],
-    "answer": "c"
+    "answer": "c",
+      "difficulty": "hard"
   },
     {
       "question": "Which mountain is the tallest in the world above sea level?",
@@ -147,7 +161,8 @@
         "c)Mount Kilimanjaro",
         "d)Mount Denali"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     }
   ],
   "informatique": [
@@ -160,7 +175,9 @@
         "c)A programming language",
         "d)A hardware component"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "easy"
+ 
     },
     {
       "question": "What is a database?",
@@ -170,7 +187,8 @@
         "c)A programming language",
         "d)A hardware component"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "medium"
     },
     {
       "question": "What does CPU stand for?",
@@ -181,7 +199,8 @@
          "c)Central Processing Unit",
         "d)Central Processor Unit"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "medium"
     },
     {
       "question": "What is a compiler?",
@@ -192,7 +211,8 @@
         "c)A software for managing databases",
          "d)A program that translates code written in a high-level programming language into machine language"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "hard"
     },
     {
       "question": "What is the main function of the operating system?",
@@ -202,7 +222,8 @@
         "c)To control all the networking",
         "d)To create and maintain files"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "hard"
     },
     {
       "question": "What is the most popular programming language in 2024?",
@@ -212,7 +233,8 @@
          "c)Python",
         "d)JavaScript"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "easy"
     },
     {
       "question": "What does HTML stand for?",
@@ -222,7 +244,8 @@
         "c)Hyper Tool Markup Language",
         "d)Home Text Markup Language"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     },
     {
       "question": "What is a web browser?",
@@ -233,7 +256,8 @@
         "c)A software application for retrieving, presenting, and traversing information resources on the World Wide Web",
         "d)A hardware component"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "medium"
     },
      
     {
@@ -245,7 +269,8 @@
         "c)Randomized Access Memory",
         "d)Readable Access Memory"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "easy"
     },
    
     {
@@ -257,7 +282,8 @@
         "c)Structured Query Language",
         "d)System Query Language"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "medium"
     },
     {
       "question": "What does API stand for?",
@@ -268,7 +294,8 @@
         "c)Application Protocol Interface",
         "d)Application Programming Interface"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "hard"
     },
    
     {
@@ -279,7 +306,8 @@
         "c)Software that is only available for purchase",
         "d)Software that is developed by a single company"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     },
     {
       "question": "What does DevOps stand for?",
@@ -289,7 +317,8 @@
         "c)Development and Organization",
         "d)Development and Processes"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "medium"
     },
     {
       "question": "What is an object in OOP?",
@@ -299,7 +328,8 @@
         "c)An instance of a class",
         "d)A hardware component"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "hard"
     },
     {
       "question": "What is a hash table?",
@@ -310,7 +340,8 @@
         "c)A hardware component",
         "d)A data structure that implements an associative array abstract data type"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "hard"
     }
   ],
   "medicine": [
@@ -322,7 +353,8 @@
         "c)37.0-38.0°C",
         "d)35.0-36.0°C"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     },
     {
       "question": "What is the medical term for high blood pressure?",
@@ -332,7 +364,8 @@
         "c)Arrhythmia",
         "d)Angina"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "hard"
     },
     {
       "question": "What is the function of the pancreas?",
@@ -342,7 +375,9 @@
         "c)To produce insulin and digestive enzymes",
         "d)To regulate heart rate"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "hard"
+      
     },
   
     {
@@ -353,7 +388,8 @@
         "c)A disease caused by high cholesterol",
         "d)A viral infection"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "medium"
     },
     {
       "question": "What is the medical term for a broken bone?",
@@ -363,7 +399,8 @@
         "c)Fracture",
         "d)Contusion"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "easy"
     },
     {
       "question": "What is the medical term for a condition where the body temperature is too high?",
@@ -373,7 +410,8 @@
         "c)Hypothermia",
         "d)Heatstroke"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "easy"
     },
     
     {
@@ -385,7 +423,8 @@
         "c)To transport nutrients",
         "d)To carry oxygen"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "easy"
     },
    
     {
@@ -396,7 +435,8 @@
         "c)Vitamin K",
         "d)Vitamin D"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "easy"
     },
    
     {
@@ -407,7 +447,8 @@
         "c)To help with digestion",
         "d)To produce hormones"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "hard"
     },
     {
       "question": "What is the most common symptom of a heart attack?",
@@ -417,7 +458,8 @@
         "c)Chest pain",
         "d)Dizziness"
       ],
-      "answer": "c"
+      "answer": "c",
+      "difficulty": "medium"
     },
    
    
@@ -430,7 +472,8 @@
         "c)A genetic disorder",
         "d)An immune system response to a substance"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "hard"
     },
     {
       "question": "What is the purpose of the immune system?",
@@ -440,7 +483,8 @@
         "c)To regulate temperature",
         "d)To protect the body from infections"
       ],
-      "answer": "d"
+      "answer": "d",
+      "difficulty": "medium"
     },
     {
       "question": "What is asthma?",
@@ -450,7 +494,8 @@
         "c)A type of heart disease",
         "d)A digestive disorder"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "medium"
     },
     {
       "question": "What is the medical term for a condition where the body is invaded by harmful microorganisms?",
@@ -460,7 +505,8 @@
         "c)Autoimmune disease",
         "d)Inflammation"
       ],
-      "answer": "b"
+      "answer": "b",
+      "difficulty": "hard"
     },
    
     {
@@ -471,7 +517,8 @@
         "c)Thrombocytopenia",
         "d)Polycythemia"
       ],
-      "answer": "a"
+      "answer": "a",
+      "difficulty": "medium"
     }    
   ]
 
