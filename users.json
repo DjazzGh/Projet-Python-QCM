@@ -33,14 +33,56 @@
         "password": "123",
         "history": [
             {
+                "category_name": "nature",
                 "date": "2024-12-26",
                 "score": 4,
                 "total": 15
             },
             {
+                "category_name": "nature",
                 "date": "2024-12-26",
                 "score": 4,
                 "total": 15
+            },
+            {
+                "category_name": "nature",
+                "date": "2024-12-26",
+                "score": 4,
+                "total": 15
+            },
+            {
+                "category_name": "nature",
+                "date": "2024-12-27",
+                "score": 0,
+                "total": 15
+            }
+        ]
+    },
+    "Jon": {
+        "password": "123",
+        "history": [
+            {
+                "category_name": "medicine",
+                "date": "2024-12-27",
+                "score": 5,
+                "total": 15
+            }
+        ]
+    },
+    "Racha": {
+        "password": "123",
+        "history": [
+            {
+                "category_name": "nature",
+                "date": "2024-12-27",
+                "score": 0,
+                "total": 3
+            },
+            {
+                "category_name": "informatique",
+                "date": "2024-12-27",
+                "score": 0,
+                "total": 3
             }
         ]
     }

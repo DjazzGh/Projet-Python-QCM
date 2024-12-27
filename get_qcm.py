@@ -20,9 +20,9 @@ def show_categories(file_path):
 
 
 # Fonction pour manipuler les questions
-def getscore(questions,username,password):
+def getscore(questions,username,password,category_name,numb_question):
     correct =0
-    for question in questions:
+    for question in questions[:numb_question]:
         print(f"  Question: {question['question']}")
         for option in question['options']:  
             print(f"    - {option}")
@@ -32,8 +32,8 @@ def getscore(questions,username,password):
             correct +=1
         else:
             print(f"wrong answer the correst one is {question['answer']}")
-    save_score( correct, username, password,questions)
-    print(f"your total correct answer {correct}/{len(questions)}")
+    save_score( correct, username, password,questions,numb_question,category_name)
+    print(f"your total correct answer {correct}/{numb_question}")
 
 
 users = load_questions('users.json')
@@ -51,7 +51,7 @@ print("The categories available :")
 for i, category in enumerate(categories, start=1):  # Affiche les catégories avec un index
     print(f"{i}. {category.capitalize()}")  # Affiche chaque catégorie avec une numérotation
 
-  
+
 # Demander à l'utilisateur de choisir une catégorie
 while True:
     try:
@@ -68,9 +68,9 @@ questions = get_category_questions('qcm.json', category_name)
 
 # Afficher les questions si elles ont été trouvées
 if questions:
+    numb_question = int(input("How many question would like to test ?"))
     print(f"Questions for the category '{category_name.capitalize()}':")
-    getscore(questions,username,password)
+    getscore(questions,username,password,category_name,numb_question)
 else:
     print(f"The category '{category_name}' doesn't exist.")  # Si la catégorie n'existe pas, affiche un message d'erreur
-
 
