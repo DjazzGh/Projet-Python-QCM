@@ -123,7 +123,7 @@ if questions:
                     print("Please choose between 1 and 5.")
             except ValueError:
                 print("Invalid input. Please enter a number.")
-    print(f"Questions for the category '{category_name.capitalize()}' and difficulty '{difficulty.capitalize()}':"")
+    print(f"Questions for the category '{category_name.capitalize()}' and difficulty '{difficulty.capitalize()}':")
     getscore(questions,username,password,category_name,numb_question, difficulty)
 else:
     print(f"The category '{category_name}' doesn't exist.")  # Si la catégorie n'existe pas, affiche un message d'erreur
