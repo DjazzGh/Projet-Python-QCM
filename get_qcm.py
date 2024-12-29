@@ -1,6 +1,7 @@
 import json
 import random
-
+import threading
+import time
 from user_management import save_score ,display_history
 # Fonction pour charger les questions depuis un fichier JSON
 def load_questions(file_path):
@@ -28,31 +29,53 @@ def select_random_questions(questions, num_questions):
     return random.sample(questions, num_questions)
 
 # Fonction pour manipuler les questions
-def getscore(questions,username,password,category_name,numb_question, difficulty):
-    correct =0
+
+
+def getscore(questions, username, password, category_name, numb_question, difficulty):
+    correct = 0
+
     if difficulty != "random":
         questions = filter_questions_by_difficulty(questions, difficulty)
-
-    if difficulty == "random":
+    else:
         questions = select_random_questions(questions, numb_question)
-        
+
+    def timeout_handler():
+        print("\nTime's up! Moving to the next question...")
+
     for question in questions[:numb_question]:
         print(f"  Question: {question['question']}")
-        for option in question['options']:  
+        for option in question['options']:
             print(f"    - {option}")
+
+        timer = threading.Timer(15.0, timeout_handler)
+        timer.start()
+
+        choice = None
+        start_time = time.time()
         while True:
-            choice = input("Choose answer (a, b, c, or d): ").lower()
+            if time.time() - start_time > 15:
+                break  # Stop waiting for input if time exceeds 15 seconds
+
+            choice = input("Choose answer (a, b, c, or d)in 15 second:").lower()
+
             if choice in ['a', 'b', 'c', 'd']:
-                break  # Valid input, exit the loop
+                timer.cancel()  # Cancel the timer if a valid input is received
+                break
+               
             else:
                 print("Invalid choice. Please enter 'a', 'b', 'c', or 'd'.")
+
         if choice == question['answer']:
-            print("Correst answer!")
-            correct +=1
+            print("Correct answer!")
+            correct += 1
+        elif choice is None:
+            print(f"You ran out of time! The correct answer is {question['answer']}.")
         else:
-            print(f"wrong answer the correst one is {question['answer']}")
-    save_score( correct, username, password,questions,numb_question,category_name)
-    print(f"your total correct answer {correct}/{numb_question}")
+            print(f"Wrong answer. The correct one is {question['answer']}.")
+
+    save_score(correct, username, password, questions, numb_question, category_name)
+    print(f"Your total correct answers: {correct}/{numb_question}")
+
 
 
 users = load_questions('users.json')
